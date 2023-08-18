@@ -1,2 +1,2 @@
 # two_dimension_control
-Controlling a seesaw mechanism in embedded C, with two BLDC motors and an IMU.
+This experimental setup includes a MPU6050 IMU, two BLDC Motors, two ESC's to drive the motors, a power supply, a STM32F407VGT Discovery Board and a seesaw mechanism for the system to operate on. The goal of this excercise is learning how to read and write on a sensor, a simple understanding of sensor fusion with the implementation of a Complementary Filter, having a general idea of what PID Control is with a simple Cascade Controller and learning to control a main loop in different time stamps at the same time with callbacks, all with the HAL library in Embedded C.
